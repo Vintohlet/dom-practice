@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Color</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="shape-container">
+           <div class="shape-view">
+            <div class="shape non-display">
+            </div>
+           </div>
+           <br>
+           <h2>Выбрать фигуру:</h2>
+           <br>
+           <div class="shape-buttons">
+            <button id = "circle">Круг</button>
+            <button id = "rectangle">Квадрат</button>
+           </div>
+           <br>
+           <h2>Выбрать цвет:</h2>
+           <br>
+           <div class="color-buttons">
+            <button class="color-button" id ="red">🟥 Красный</button>
+            <button class="color-button" id = "yellow">🟨 Желтый</button>
+            <button class="color-button" id ="green">🟩 Зеленый</button>
+            <button class="color-button" id = "blue">🟦 Синий</button>
+            <span class="error" id="colorShapeError"></span>
+           </div>
+           <br>
+           <h2>Введите текст:</h2>
+           <br>
+           <div class="shape-input">
+            <input type="text" name="shapetext" id="shapetext">
+            <button type="submit" id = "submit">Добавить</button>
+            <span class="error" id="textError"></span>
+           </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
